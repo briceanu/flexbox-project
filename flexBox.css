@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Edu+VIC+WA+NT+Beginner&family=Poppins:wght@100&family=Roboto:wght@100&display=swap");
+
+:root {
+  --light-green: rgb(37, 238, 30);
+  --dark-green: rgb(5, 94, 5);
+  --thick: 1.5rem;
+}
+
+* {
+  /* font-family: "Poppins", sans-serif; */
+  font-size: 16px;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* some commented lines from a diffrent project which I do not want do delete now */
+/* 
+.navbar-items {
+  width: 100vw;
+  height: fit-content;
+  background: var(--light-green);
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  align-items: center;
+}
+ul {
+  list-style: none;
+}
+ul a {
+  text-decoration: none;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-shadow: 3px 3px 3px var(--dark-green);
+}
+.navbar-items ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.navbar-items ul li {
+  margin-left: 20px;
+}
+
+.footer-container {
+  height: 15vh;
+  width: 100vw;
+
+  background-color: var(--dark-green);
+}
+.footer-items ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  flex: 1;
+}
+.footer-items li {
+  margin-left: 20px;
+}
+.footer-items a {
+  color: rgb(111, 111, 168);
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.left-side {
+  flex: 1;
+}
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar-items {
+  flex: 1;
+} */
+/* some commented lines from a diffrent project */
+
+/* navbar starts here  */
+header {
+  background: #1f2937;
+  color: antiquewhite;
+  min-width: 100vw;
+  min-height: 85vh;
+  flex-wrap: wrap;
+}
+nav .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 180px;
+  font-size: 24px;
+  font-weight: 900;
+}
+nav {
+  height: 10vh;
+  min-width: 100vw;
+  /* background: violet; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav-list a {
+  text-decoration: none;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+nav .nav-list ul {
+  list-style: none;
+  display: flex;
+  margin-right: 100px;
+}
+nav .nav-list li {
+  margin-left: 50px;
+}
+nav .nav-list a:hover {
+  color: aqua;
+  text-shadow: 4px 4px 4px gray;
+}
+button {
+  color: beige;
+  background: #3882f6;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 30px;
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+/* the code for the navbar ends here */
+/* the beginning of the hedear */
+.text-contain h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+main {
+  margin-top: 100px;
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}
+main .text-contain {
+  margin-left: 180px;
+}
+
+img {
+  min-width: 600px;
+  max-width: 700px;
+  height: 300px;
+  margin-right: 100px;
+  margin-left: 100px;
+  box-shadow: -4px -4px 4px lightblue;
+}
+button:hover {
+  cursor: pointer;
+}
+/* the end code of the header */
+/* the beginning of the hero section */
