@@ -179,7 +179,6 @@ button:hover {
   flex-direction: row;
   align-items: center;
   justify-content: left;
-  background-color: aqua;
   margin-top: 20px;
 }
 .information {
@@ -248,7 +247,6 @@ button:hover {
 .call-to-action {
   width: 100vw;
   height: 50vh;
-  background: yellowgreen;
   display: flex;
   align-items: center;
   justify-content: center;
